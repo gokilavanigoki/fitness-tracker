@@ -1,0 +1,33 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header ul li {
+    @apply px-2
+}
+
+.bg-primary {
+    background : rgb(107, 3, 3)
+}
+.bg-secondary {
+    background: rgb(2, 1, 1);
+}
+.text-color {
+    color: rgb(174, 174, 174);
+}
+.bg-tertiary {
+    background:#A30000
+   
+}
+.footer-color {
+  background-color: rgb(18, 16, 16);
+
+}
+.dashboard-color {
+  background: #191919;
+}
+.html {
+    scroll-behavior: smooth;
+}
